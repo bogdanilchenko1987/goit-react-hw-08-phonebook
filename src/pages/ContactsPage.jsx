@@ -6,6 +6,8 @@ import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { fetchContacts } from '../redux/contacts/operations';
 
+import { ContactsPageWrapper } from 'App.styled';
+
 export default function ContactsPage() {
   const dispatch = useDispatch();
 
@@ -14,7 +16,7 @@ export default function ContactsPage() {
   }, [dispatch]);
 
   return (
-    <>
+    <ContactsPageWrapper>
       <ContactsSection>
         <ContactForm />
       </ContactsSection>
@@ -22,6 +24,6 @@ export default function ContactsPage() {
         <ContactsFilter />
         <ContactList />
       </ContactsSection>
-    </>
+    </ContactsPageWrapper>
   );
 }

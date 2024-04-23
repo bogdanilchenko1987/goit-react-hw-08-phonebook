@@ -1,21 +1,9 @@
-const styles = {
-  container: {
-    minHeight: 'calc(100vh - 50px)',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  title: {
-    fontWeight: 500,
-    fontSize: 48,
-    textAlign: 'center',
-  },
-};
+import { HomePageHeader, HomePageWrapper } from 'App.styled';
 
 export default function HomePage() {
   return (
-    <div style={styles.container}>
-      <h1 style={styles.title}>Your Contacts App</h1>
-    </div>
+    <HomePageWrapper>
+      <HomePageHeader>Your Contacts App</HomePageHeader>
+    </HomePageWrapper>
   );
 }
