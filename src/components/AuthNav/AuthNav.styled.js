@@ -1,11 +1,9 @@
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
-// export const Wrapper = styled.div`
-//   margin-left: auto;
-// `;
-
 export const StyledLink = styled(NavLink)`
+  margin-top: 5px;
+  margin-bottom: 5px;
   display: inline-block;
   text-decoration: none;
   border-radius: 3px;

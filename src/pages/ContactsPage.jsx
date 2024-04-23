@@ -15,10 +15,10 @@ export default function ContactsPage() {
 
   return (
     <>
-      <ContactsSection title="Phonebook">
+      <ContactsSection>
         <ContactForm />
       </ContactsSection>
-      <ContactsSection title="Contacts">
+      <ContactsSection>
         <ContactsFilter />
         <ContactList />
       </ContactsSection>

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import img from './images/contacts-bg.jpg';
 
 export const Container = styled.div`
-  max-width: 1200px;
+  max-width: 960px;
   min-height: 600px;
   background-image: url(${img});
   background-size: cover;
