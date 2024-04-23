@@ -12,7 +12,7 @@ import {
   Label,
 } from 'components/ContactForm/ContactForm.styled';
 
-export const ContactListItem = ({ id, name, number }) => {
+export const ContactListItem = ({ id, name, number, i }) => {
   const [modalActive, setModalActive] = useState(false);
   const [editName, setEditName] = useState(name);
   const [editNumber, setEditNumber] = useState(number);

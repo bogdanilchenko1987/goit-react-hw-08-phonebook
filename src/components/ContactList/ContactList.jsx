@@ -21,7 +21,7 @@ export const ContactList = () => {
           visible={true}
           height="40"
           width="40"
-          color="blue"
+          color="black"
           ariaLabel="three-circles-loading"
         />
       )}
@@ -39,4 +39,3 @@ export const ContactList = () => {
     </>
   );
 };
-

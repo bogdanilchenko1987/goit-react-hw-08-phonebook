@@ -10,6 +10,6 @@ export const SectionWrapper = styled.section`
 `;
 
 export const SectionHeader = styled.h2`
-  color: blue;
+  color: black;
   margin: 0;
 `;
